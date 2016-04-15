@@ -1,7 +1,7 @@
----
-title: "Reproducible Research - Course Project 1"
-date: April 13, 2016
----
+
+# Reproducible Research - Course Project 1
+April 13, 2016
+
 
 
 
@@ -189,12 +189,6 @@ for (type in c("weekend", "weekday")) {
 ```
 
 ![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png)
-
-
-library(knitr)
-opts_knit$set(base.dir = 'figure') 
-knit2html("PA1_template.Rmd", "PA1_template.html")
-
 
 
 
